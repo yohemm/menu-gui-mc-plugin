@@ -1,0 +1,3 @@
+name: MenuGui
+version: '${project.version}'
+main: fr.yohem.menugui.MenuGui
