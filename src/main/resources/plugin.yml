@@ -1,3 +1,16 @@
 name: MenuGui
 version: '${project.version}'
 main: fr.yohem.menugui.MenuGui
+commands:
+  test:
+    description: a
+    usage: a
+  menu:
+    description: a
+    usage: a
+  is:
+    description: a
+    usage: a
+  shop:
+    description: a
+    usage: a

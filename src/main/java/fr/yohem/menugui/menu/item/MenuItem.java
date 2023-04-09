@@ -1,4 +1,4 @@
-package fr.yohem.menugui;
+package fr.yohem.menugui.menu.item;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
@@ -21,21 +21,25 @@ public class MenuItem {
         this.itemStack = new ItemStack(material);
         this.meta = itemStack.getItemMeta();
     }
+
     public MenuItem(MenuItem menuItem){
         this(menuItem.getItemInMenu(),menuItem.getMeta());
     }
 
-    public void setLore(List<String> lore){
+    public MenuItem setLore(List<String> lore){
         meta.setLore(lore);
+        return this;
     }
 
-    public void setName(String name){
+    public MenuItem setName(String name){
         meta.setDisplayName(name);
+        return this;
 
     }
-    public void setVariance(byte bt){
+    public MenuItem setVariance(byte bt){
         itemStack.setItemMeta(meta);
         itemStack = new ItemStack(itemStack.getType(), 1, (short) 14, bt);
+        return this;
     }
 
     public ItemStack getItemInMenu() {
