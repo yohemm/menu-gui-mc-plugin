@@ -2,7 +2,12 @@
 # Menu Gui
 
 <!-- ![Project Banner](path/to/banner/image)  -->
+## 🌟 Project Status
 
+> **Current Status**: **:large_blue_circle: Maintenance Mode**  
+> Development is focused on bug fixes, security updates, and minor improvements. No major new features are currently planned.
+
+---
 ## Overview
 
 Menu Gui is an mincraft's plugin for programming/developpers. The plugin's aim is to simplified the utilisation of inventories for menu.
